@@ -44,7 +44,7 @@ window.onload = function(){
         if(index > imageCount)
             index = 1;
         setPoint();
-    },3500);//设置每隔3.5秒切换一次
+    },5000);//设置每隔5秒切换一次
  
     //等过渡结束之后来做无缝衔接
     my.transitionEnd(imageBox, function(){
